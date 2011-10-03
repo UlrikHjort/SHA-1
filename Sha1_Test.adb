@@ -66,6 +66,8 @@ end Test;
 begin
    Test("This the first test" , "1B86AD53560C95BF6A843CE334AC2D9D30486250");
    Test("a", "86F7E437FAA5A7FCE15D1DDCB9EAEAEA377667B8");
+   Test("", "DA39A3EE5E6B4B0D3255BFEF95601890AFD80709");
    Test("Arthur Looked Up. 'Ford!' He Said, 'there's an infinite number of monkeys outside who want to talk to us about this script for Hamlet they've worked out.",
         "BA1F6C3BDD830D4C1FCA6DEEFE3116848C608470");
+
 end Sha1_Test;
