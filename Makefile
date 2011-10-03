@@ -2,7 +2,6 @@ EXE = sha1_test
 ADA_VERSION = -gnat05
 SRC = Conversion.adb Sha1.adb Sha1_Test.adb
 FLAGS = -gnato -gnatwa -fstack-check
-#FLAGS = 
 
 all: 
 	gnatmake $(ADA_VERSION) $(FLAGS) $(SRC)
